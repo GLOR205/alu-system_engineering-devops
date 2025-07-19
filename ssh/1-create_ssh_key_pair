@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-ssh-keygen -t rsa -b 4096 -f school -N "betty"
+# creating and ssh key pair with password hit: man ssh-keygen
+ssh-keygen -b 4096 -t rsa -f school -N "betty"
 
